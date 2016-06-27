@@ -2,40 +2,28 @@
 <html>
     <head>
         <title>Laravel</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
+        <link rel="css/bootstrap.css"/>
     </head>
     <body>
+        <<nav class="navbar navbar-default" role="navigation">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="#">QLess</a>
+        	</div>
+        
+        	<!-- Collect the nav links, forms, and other content for toggling -->
+        	<div class="collapse navbar-collapse navbar-ex1-collapse">
+        		<ul class="nav navbar-nav">
+        			<li><a href="#">Sign</a></li>
+        		</ul>
+        	</div><!-- /.navbar-collapse -->
+        </nav>
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
